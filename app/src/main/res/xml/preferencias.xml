@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="Categoria1"
+        android:title="Credenciales">
+
+        <EditTextPreference
+            android:key="pwd"
+            android:title="Contraseña"
+            android:summary="Contraseña"
+            android:dialogTitle="Introduce la contraseña" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="Categoria2"
+        android:title="LLamada">
+
+        <EditTextPreference
+            android:key="phonellama"
+            android:title="Telefono LLamada"
+            android:summary="Telefono"
+            android:dialogTitle="Introduce el telefono para llamar" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="Categoria3"
+        android:title="Mensaje">
+
+        <EditTextPreference
+            android:key="phonesms"
+            android:title="Telefono SMS"
+            android:summary="Telefono"
+            android:dialogTitle="Introduce el telefono para sms" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="Categoria4"
+        android:title="Correo">
+
+        <EditTextPreference
+            android:key="mail"
+            android:title="Correo"
+            android:summary="Correo"
+            android:dialogTitle="Introduce el correo de destino" />
+    </PreferenceCategory>
+</PreferenceScreen>
